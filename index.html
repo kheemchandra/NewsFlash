@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/post.css">
+    <title>NewsFlash | Home</title>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <nav class="navbar">
+            <a href="./index.html" class="logo">
+                <h1>NewsFlash</h1>
+            </a>
+            
+            <ul class="menu-left">
+                <li><a href="#" class="current">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Membership</a></li>
+                <li><a href="#">Contact</a></li>
+                <li class="hidden-lg-screen"><a href="#">Sign in</a></li>
+                <li class="hidden-lg-screen"><a href="#">Sign up</a></li>
+            </ul>
+            <ul class="menu-right">
+                <li id="sun"><a href="#"><i class="ri-sun-line"></i></a></li>
+                <li id="moon" class="hidden"><a href="#"><i class="ri-moon-line"></i></a></li>
+                <li id="search"><a href="#" ><i class="ri-search-line"></i></a></li>
+                <li id="bars"  class="hidden-lg-screen"><a href="#"><i class="ri-menu-3-line"></i></a></li>
+                <li id="cross" class="hidden-lg-screen hidden"><a href="#"><i class="ri-close-line"></i></a></li>
+                <li class="hidden-sm-screen"><a href="#">Sign in</a></li>
+                <li class="hidden-sm-screen fancy animate"><a class="fancy-inner" href="#">
+                    <span>Sign up</span>
+                </a></li>
+            </ul>
+            
+                
+        </nav>
+        
+    </div>
+</header>
+
+<!-- Search page -->
+<section class="search">
+    <a id="cross1">
+        <i class="ri-close-line"></i>
+    </a>
+    <div>
+        <form class="form-search">
+            <input type="text" class="form-search-input"
+            placeholder="What are you looking for?">
+            <span>
+                <a href="#">
+                    <i class="ri-search-line"></i>
+                </a>
+            </span>
+        </form>
+        <p>Or press ESC to close.</p>
+
+    </div>
+</section>
+
+
+<!-- Showcase section  -->
+<section class="showcase">
+    
+    <div class="container d-grid">
+
+        <!--FEATURED NEWS-->
+        <div class="showcase-1 d-grid">
+            <div class="news">
+                <div class="fancy">
+                    <a class="fancy-inner">
+                        <span>BREAKING NEWS</span>
+                    </a>
+                </div>
+                <p>Apple announces a new partnership...</p>
+            </div>
+            
+            <a href="./post.html" class="features" id="feature-1">
+                <img src="./assets/images/featured/featured-1.jpg" alt="">
+                <div class="feature-inner">
+                    <div class="data">
+                        <span>Mar 8th 2022</span>
+                        <span class="square"></span>
+                        <span>8 min read</span>
+                    </div>
+                    <p class="title">Is VR the future?</p>
+                </div>
+                <span class="tag">TECHNOLOGY</span>
+            </a>
+
+            <a href="./post.html" class="features" id="feature-2">
+                <img src="./assets/images/featured/featured-2.jpg" alt="">
+                <div class="feature-inner">
+                    <div class="data">
+                        <span>Mar 8th 2022</span>
+                        <span class="square"></span>
+                        <span>4 min read</span>
+                    </div>
+                    <p class="title">Fine dining 101</p>
+                </div>
+                <span class="tag">FOOD</span>
+            </a>
+
+            <a href="./post.html" class="features" id="feature-3">
+                    <img src="./assets/images/featured/featured-3.jpg" alt="">
+                    <div class="feature-inner">
+                        <div class="data">
+                            <span>Mar 8th 2022</span>
+                            <span class="square"></span>
+                            <span>5 min read</span>
+                        </div>
+                        <p class="title">Natural fat burner</p>
+                    </div>
+                    <span class="tag">HEALTH</span>
+            </a>
+            
+        </div>
+        <!--TRENDING NEWS-->
+        <div class="showcase-2"> 
+            <div class="wrapper">
+                <h2>Trending News</h2>
+                
+                <div class="trends">
+                    <a href="#" class="d-grid">
+                        <div class="trend-image-wrapper">
+                            <img src="./assets/images/trending/trending_1.jpg" alt="">
+                        </div>
+                        <div class="trends-inner">
+                            <div class="data">
+                                <span>Mar 8th 2022</span>
+                                <span class="square"></span>
+                                <span>3 min read</span>
+                            </div>
+                            <p class="title">Sample article title</p>
+                        </div>
+                    </a>
+                </div>
+                    
+                <div class="trends">
+                    <a href="#" class="d-grid">
+                        <div class="trend-image-wrapper">
+                            <img src="./assets/images/trending/trending_2.jpg" alt="">
+                        </div>
+                        <div class="trends-inner">
+                            <div class="data">
+                                <span>Mar 8th 2022</span>
+                                <span class="square"></span>
+                                <span>3 min read</span>
+                            </div>
+                            <p class="title">Sample article title</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="trends">
+                    <a href="#" class="d-grid">
+                        <div class="trend-image-wrapper">
+                            <img src="./assets/images/trending/trending_3.jpg" alt="">
+                        </div>
+                        <div class="trends-inner">
+                            <div class="data">
+                                <span>Mar 8th 2022</span>
+                                <span class="square"></span>
+                                <span>3 min read</span>
+                            </div>
+                            <p class="title">Sample article title</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="trends">
+                    <a href="#" class="d-grid">
+                        <div class="trend-image-wrapper">
+                            <img src="./assets/images/trending/trending_4.jpg" alt="">
+                        </div>
+                        <div class="trends-inner">
+                            <div class="data">
+                                <span>Mar 8th 2022</span>
+                                <span class="square"></span>
+                                <span>3 min read</span>
+                            </div>
+                            <p class="title">Sample article title</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="trends">
+                    <a href="#" class="d-grid">
+                        <div class="trend-image-wrapper">
+                            <img src="./assets/images/trending/trending_5.jpg" alt="">
+                        </div>
+                        <div class="trends-inner">
+                            <div class="data">
+                                <span>Mar 8th 2022</span>
+                                <span class="square"></span>
+                                <span>3 min read</span>
+                            </div>
+                            <p class="title">Sample article title</p>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Quick read  -->
+<section class="quick-read container">
+    <h2 class="heading" data-name="quick read">Quick read</h2>
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <a class="swiper-slide" href="#">
+                <div class="features">
+                    <img src="./assets/images/quick_read/quick_read_1.jpg" alt="">
+                    <div class="feature-inner">
+                        <div class="data">
+                            <span>Mar 7th 2022</span>
+                            <span class="square"></span>
+                            <span>8 min read</span>
+                        </div>
+                        <p class="title">Sample article title</p>
+                    </div>
+                </div>
+            </a>
+
+            <a class="swiper-slide" href="#">
+                <div class="features">
+                    <img src="./assets/images/quick_read/quick_read_2.jpg" alt="">
+                    <div class="feature-inner">
+                        <div class="data">
+                            <span>Mar 7th 2022</span>
+                            <span class="square"></span>
+                            <span>8 min read</span>
+                        </div>
+                        <p class="title">Sample article title</p>
+                    </div>
+                </div>
+            </a>
+
+            <a class="swiper-slide" href="#">
+                <div class="features">
+                    <img src="./assets/images/quick_read/quick_read_3.jpg" alt="">
+                    <div class="feature-inner">
+                        <div class="data">
+                            <span>Mar 7th 2022</span>
+                            <span class="square"></span>
+                            <span>8 min read</span>
+                        </div>
+                        <p class="title">Sample article title</p>
+                    </div>
+                </div>
+            </a>
+
+            <a class="swiper-slide" href="#">
+                <div class="features">
+                    <img src="./assets/images/quick_read/quick_read_4.jpg" alt="">
+                    <div class="feature-inner">
+                        <div class="data">
+                            <span>Mar 7th 2022</span>
+                            <span class="square"></span>
+                            <span>8 min read</span>
+                        </div>
+                        <p class="title">Sample article title</p>
+                    </div>
+                </div>
+            </a>
+
+            <a class="swiper-slide" href="#">
+                <div class="features">
+                    <img src="./assets/images/quick_read/quick_read_5.jpg" alt="">
+                    <div class="feature-inner">
+                        <div class="data">
+                            <span>Mar 7th 2022</span>
+                            <span class="square"></span>
+                            <span>8 min read</span>
+                        </div>
+                        <p class="title">Sample article title</p>
+                    </div>
+                </div>
+            </a>
+
+            <a class="swiper-slide" href="#">
+                <div class="features">
+                    <img src="./assets/images/quick_read/quick_read_6.jpg" alt="">
+                    <div class="feature-inner">
+                        <div class="data">
+                            <span>Mar 7th 2022</span>
+                            <span class="square"></span>
+                            <span>8 min read</span>
+                        </div>
+                        <p class="title">Sample article title</p>
+                    </div>
+                </div>
+            </a>
+            
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+</section>
+
+<!-- Older posts  -->
+<section class="older-posts container">
+    <h2 class="heading" data-name="older posts">Older posts</h2>
+    <div class="older-posts-wrapper d-grid">
+
+        <a href="#" class="features older-post-wrapper">
+            <img src="./assets/images/older_posts/older_posts_1.jpg" alt="">
+            <div class="feature-inner">
+                    <div class="data">
+                        <span>Mar 7th 2022</span>
+                        <span class="square"></span>
+                        <span>8 min read</span>
+                    </div>
+                    <p class="title">Sample article title</p>
+                    <p class="description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.
+                    </p>
+            </div>
+        </a>
+
+        <a href="#" class="features older-post-wrapper">
+            <img src="./assets/images/older_posts/older_posts_2.jpg" alt="">
+            <div class="feature-inner">
+                    <div class="data">
+                        <span>Mar 7th 2022</span>
+                        <span class="square"></span>
+                        <span>8 min read</span>
+                    </div>
+                    <p class="title">Sample article title</p>
+                    <p class="description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.
+                    </p>
+            </div>
+        </a>
+
+        <a href="#" class="features older-post-wrapper">
+            <img src="./assets/images/older_posts/older_posts_3.jpg" alt="">
+            <div class="feature-inner">
+                    <div class="data">
+                        <span>Mar 7th 2022</span>
+                        <span class="square"></span>
+                        <span>8 min read</span>
+                    </div>
+                    <p class="title">Sample article title</p>
+                    <p class="description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.
+                    </p>
+            </div>
+        </a>
+
+        <a href="#" class="features older-post-wrapper">
+            <img src="./assets/images/older_posts/older_posts_4.jpg" alt="">
+            <div class="feature-inner">
+                    <div class="data">
+                        <span>Mar 7th 2022</span>
+                        <span class="square"></span>
+                        <span>8 min read</span>
+                    </div>
+                    <p class="title">Sample article title</p>
+                    <p class="description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.
+                    </p>
+            </div>
+        </a>
+
+        <a href="#" class="features older-post-wrapper">
+            <img src="./assets/images/older_posts/older_posts_5.jpg" alt="">
+            <div class="feature-inner">
+                    <div class="data">
+                        <span>Mar 7th 2022</span>
+                        <span class="square"></span>
+                        <span>8 min read</span>
+                    </div>
+                    <p class="title">Sample article title</p>
+                    <p class="description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.
+                    </p>
+            </div>
+        </a>
+
+        <a href="#" class="features older-post-wrapper">
+            <img src="./assets/images/older_posts/older_posts_6.jpg" alt="">
+            <div class="feature-inner">
+                    <div class="data">
+                        <span>Mar 7th 2022</span>
+                        <span class="square"></span>
+                        <span>8 min read</span>
+                    </div>
+                    <p class="title">Sample article title</p>
+                    <p class="description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.
+                    </p>
+            </div>
+        </a>
+    </div>
+        
+    <a href="#" class="see-more">
+        SEE MORE <i class="ri-arrow-right-s-line"></i>
+    </a>
+</section>
+
+<!-- Popular tags -->
+<section class="popular-tags container">
+    <h2 class="heading" data-name="popular tags">Popular tags</h2>
+    <div class="popular-tags-wrapper d-grid">
+        <a href="#" class="p-image-wrapper">
+            <img src="./assets/images/tags/travel-tag.jpg" alt="">
+            <span class="p-tag">#Travel</span>
+        </a>
+
+        <a href="#" class="p-image-wrapper">
+            <img src="./assets/images/tags/food-tag.jpg" alt="">
+            <span class="p-tag">#Food</span>
+        </a>
+
+        <a href="#" class="p-image-wrapper">
+            <img src="./assets/images/tags/technology-tag.jpg" alt="">
+            <span class="p-tag">#Technology</span>
+        </a>
+
+        <a href="#" class="p-image-wrapper">
+            <img src="./assets/images/tags/health-tag.jpg" alt="">
+            <span class="p-tag">#Health</span>
+        </a>
+
+        <a href="#" class="p-image-wrapper">
+            <img src="./assets/images/tags/nature-tag.jpg" alt="">
+            <span class="p-tag">#Nature</span>
+        </a>
+
+        <a href="#" class="p-image-wrapper">
+            <img src="./assets/images/tags/fitness-tag.jpg" alt="">
+            <span class="p-tag">#Fitness</span>
+        </a>
+    </div>
+</section>
+
+<!-- Newsletter -->
+<section class="newsletter container">
+    <h2 class="heading" data-name="newsletter">Newsletter</h2>
+    <div class="newsletter-wrapper">
+        <div class="newsletter-text">
+            <h3>Subscribe to NewsFlash</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing quaerat dignissimos.
+            </p>
+        </div>
+        <form class="form-search">
+            <input type="text" class="form-search-input"
+            placeholder="Enter your email address">
+            <span>
+                <a href="#">
+                    <i class="ri-mail-send-line"></i>
+                </a>
+            </span>
+        </form>
+    </div>
+    
+</section>
+
+
+<!-- Footer  -->
+<footer class="footer">
+    <div class="footer-wrapper container d-grid">
+        <div class="foot-main">
+            <a href="#"><h2>NewsFlash</h2></a>
+            <p class="foot-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, iure. Harum, animi dolores, nam, ad magni expedita.
+            </p>
+            <ul class="social-links">
+                <li><a href=""><i class="ri-instagram-line"></i></a></li>
+                <li><a href=""><i class="ri-facebook-circle-line"></i></a></li>
+                <li><a href=""><i class="ri-twitter-line"></i></a></li>
+                <li><a href=""><i class="ri-pinterest-line"></i></a></li>
+            </ul>
+            <p class="copyright">
+                &copy;2022 NewsFlash. All rights reserved.
+            </p>
+        </div>
+        <div class="ul-wrap">
+            <h3>Categories</h3>
+            <ul>
+                <li><a href="#">Travel</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Health</a></li>
+                <li><a href="#">Nature</a></li>
+                <li><a href="#">Fitness</a></li>
+            </ul>
+        </div>
+        <div class="ul-wrap">
+            <h3>Useful links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Elements</a></li>
+                <li><a href="#">Tags</a></li>
+                <li><a href="#">Authors</a></li>
+                <li><a href="#">Membership</a></li>
+            </ul>
+        </div>
+        <div class="ul-wrap">
+            <h3>Company</h3>
+            <ul>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">F.A.Q</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Authors</a></li>
+                <li><a href="#">Memberships</a></li>
+            </ul>
+        </div>
+            
+    </div>
+</footer>
+
+<script src="./assets/js/main.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+</body>
+</html>
