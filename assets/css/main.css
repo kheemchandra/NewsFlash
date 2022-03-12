@@ -44,27 +44,14 @@ body{
     font-family: 'Be Vietnam Pro', sans-serif;
 }
 .theme-change{
-    --primary-background-color1: #111; 
-    /* --transparent-background-color: rgba(17, 17, 17, .3); */
-    --transparent-background-color1: rgba(17, 17, 17, .8);
-    --secondary-background-color1: #282C35; 
-    --primary-light-color1: #fff;
-    --secondary-light-color1: rgb(160, 170, 180);
-    
     --secondary-background-color: #e1eedd;
     --transparent-background-color: rgba(252,246,245, 0.8);
-
-    /* --primary-background-color: #c5cbe3; */
     --primary-background-color: #fefbe9;
     --secondary-light-color: #397754;
     --primary-light-color: #183a1d;
     --hover-color: #fff; 
     --border-bottom-color: rgb(24, 58, 29,.2);
 
-
-    
-    
-    
 }
 
 .container{
@@ -109,7 +96,7 @@ header{
     line-height: 2.5;
     transform: scale(0);
     opacity: 0;
-    transition: transform .1s ease;
+    transition: opacity .5s ease;
 }
 .show{
     opacity: 1;
@@ -145,7 +132,7 @@ header{
     z-index: 10000;
     opacity: 0;
     transform: scale(0);
-    transition: transform 0.1s ease-in;
+    transition: opacity 0.5s ease-in;
 }
 .search #cross1 i{
     display: inline-block;
@@ -212,7 +199,7 @@ img{
     width: 10rem;
 }
 .animate:hover {
-    animation: ani .75s   infinite ;
+    animation: ani .75s linear  infinite ;
 }
 @keyframes ani {
     25%{
